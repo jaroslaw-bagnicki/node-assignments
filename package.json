@@ -1,0 +1,16 @@
+{
+  "name": "Assignment1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha '*.spec.js'"
+  },
+  "repository": "git@git.future-processing.com:nodejs/tamagotchi.git",
+  "author": "Jarosław Bagnicki <jbagnicki@future-processing.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "mocha": "^7.0.0"
+  }
+}
