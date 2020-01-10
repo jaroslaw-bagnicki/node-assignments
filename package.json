@@ -1,0 +1,22 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jaroslaw-bagnicki/node-assignments.git",
+  "author": "Jarosław Bagnicki <jarek@bagnicki.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "mocha *.spec.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@hapi/hapi": "^19.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "mocha": "^7.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
