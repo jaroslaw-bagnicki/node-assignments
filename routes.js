@@ -7,6 +7,13 @@ const routes = [
         path: '/',
         handler: getHomeHandler,
     },
+    {
+        method: 'GET',
+        path: '/crash',
+        handler: () => { 
+            throw Error('Ups...'); 
+        },
+    },
 ];
 
 module.exports = routes;
